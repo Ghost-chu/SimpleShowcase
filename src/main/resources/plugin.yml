@@ -1,0 +1,9 @@
+name: SimpleShowcase
+version: '${project.version}'
+main: com.ghostchu.plugins.simpleshowcase.SimpleShowcase
+api-version: '1.20'
+soft-depend: [MultiChat, EcoEnchants, eco]
+commands:
+  showitem:
+    description: Showcase the item in your hand
+    usage: /showitem
